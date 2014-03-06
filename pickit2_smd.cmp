@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sáb 01 Fev 2014 17:09:55 WET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Qua 05 Mar 2014 20:46:12 UTC
 
 BeginCmp
 TimeStamp = /52EC378D;
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /52EC36DE;
 Reference = U2;
 ValeurCmp = PIC18F2550;
-IdModule  = SOJ28_WIDE;
+IdModule  = SO28;
 EndCmp
 
 EndListe
