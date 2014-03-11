@@ -1,6 +1,6 @@
-update=Sáb 08 Mar 2014 17:26:26 UTC
+update=Ter 11 Mar 2014 21:53:44 UTC
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -50,14 +50,19 @@ LibName35=transistor-fet
 LibName36=transistor-fet+irf7201
 LibName37=transistor-power
 LibName38=transistors_gaui
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=pickit2_smd.net
 UseCmpFile=1
 PadDrill="    0,000000"
 PadDrillOvalY="    0,000000"
-PadSizeH="    2,499360"
-PadSizeV="    0,497840"
+PadSizeH="    3,600000"
+PadSizeV="    1,400000"
 PcbTextSizeV="    1,000000"
 PcbTextSizeH="    1,000000"
 PcbTextThickness="    0,300000"
@@ -70,6 +75,7 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
+LibDir=Libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -91,9 +97,4 @@ LibName18=SparkFun
 LibName19=SparkFun-Connectors
 LibName20=sod123_mod
 LibName21=smd_diodes
-LibDir=Libs
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName22=inductor_pickit

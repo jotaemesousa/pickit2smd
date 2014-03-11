@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sáb 08 Mar 2014 17:50:17 UTC
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Ter 11 Mar 2014 21:54:38 UTC
 
 BeginCmp
 TimeStamp = /52EC378D;
@@ -22,16 +22,16 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EC392C;
+TimeStamp = /52EC3A9E;
 Reference = C4;
-ValeurCmp = 10u;
+ValeurCmp = 100n;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EC3A9E;
+TimeStamp = /52EC392C;
 Reference = C5;
-ValeurCmp = 100n;
+ValeurCmp = 10u;
 IdModule  = c_1812;
 EndCmp
 
@@ -43,10 +43,10 @@ IdModule  = c_1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /52ECF53E;
+TimeStamp = /531F9977;
 Reference = C7;
-ValeurCmp = CAPAPOL;
-IdModule  = c_1210;
+ValeurCmp = 22p;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /52EC3ACC;
 Reference = L1;
 ValeurCmp = 680uH;
-IdModule  = c_1812;
+IdModule  = inductor_SDE6603;
 EndCmp
 
 BeginCmp
@@ -479,6 +479,48 @@ EndCmp
 BeginCmp
 TimeStamp = /531B5C29;
 Reference = R36;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F7512;
+Reference = R37;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F7518;
+Reference = R38;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F7A3E;
+Reference = R39;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F7A38;
+Reference = R40;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F8C58;
+Reference = R41;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531F9571;
+Reference = R42;
 ValeurCmp = 0;
 IdModule  = SM0603;
 EndCmp
