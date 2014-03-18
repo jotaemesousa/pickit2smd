@@ -38,13 +38,13 @@ LIBS:transistor-fet+irf7201
 LIBS:transistor-power
 LIBS:transistors_gaui
 LIBS:pickit2_smd-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "18 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1861,6 +1861,31 @@ F 1 "470n" H 7406 5915 40  0000 L CNN
 F 2 "" H 7438 5850 30  0000 C CNN
 F 3 "" H 7400 6000 60  0000 C CNN
 	1    7400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 5328DF4E
+P 3650 2250
+F 0 "R43" V 3730 2250 40  0000 C CNN
+F 1 "10K" V 3657 2251 40  0000 C CNN
+F 2 "" V 3580 2250 30  0000 C CNN
+F 3 "" H 3650 2250 30  0000 C CNN
+	1    3650 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2250 3900 2300
+Connection ~ 3900 2300
+$Comp
+L +5V #PWR051
+U 1 1 5328DFF9
+P 3400 2250
+F 0 "#PWR051" H 3400 2340 20  0001 C CNN
+F 1 "+5V" H 3400 2340 30  0000 C CNN
+F 2 "" H 3400 2250 60  0000 C CNN
+F 3 "" H 3400 2250 60  0000 C CNN
+	1    3400 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
